@@ -53,7 +53,7 @@ function Hero() {
             </label>
             <input
               type="date"
-              className="px-4 py-2 bg-stone-200 rounded-full focus:outline-primary"
+              className="w-full px-4 py-2 bg-stone-200 rounded-full focus:outline-primary"
             ></input>
           </div>
 

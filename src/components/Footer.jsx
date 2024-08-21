@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import video from "../assets/video/footer.mp4";
+import image from "../assets/logo.png";
 
 function Footer() {
   const links = [
@@ -27,7 +28,7 @@ function Footer() {
       <div className="bg-stone-100 bg-opacity-80 max-w-7xl mx-8 md:mx-auto rounded-xl grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 px-10 py-10 my-10 md:my-0">
         <div className="flex flex-col justify-center items-center md:items-start">
           <div>
-            <img className="w-32" src="src/assets/logo.png"></img>
+            <img className="w-32" src={image}></img>
           </div>
 
           <p className="my-2 text-center md:text-left">

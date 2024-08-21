@@ -24,7 +24,7 @@ function NavBar() {
               {/* navbar */}
               <div className="flex justify-between items-center">
                 {/* logo section  */}
-                <Link to="/">
+                <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                   <img className="w-32" src={logo}></img>
                 </Link>
                 {/* menu section */}
