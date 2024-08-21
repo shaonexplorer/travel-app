@@ -7,8 +7,8 @@ import Places from "../components/Places/Places";
 import Poster from "../components/Poster";
 import Testimonials from "../components/Testimonials/Testimonials";
 
-const poster1 = "/src/assets/cover-women.jpg";
-const poster2 = "/src/assets/travel-cover2.jpg";
+import poster1 from "../assets/cover-women.jpg";
+import poster2 from "../assets/travel-cover2.jpg";
 
 function Home() {
   return (
@@ -27,7 +27,6 @@ function Home() {
         {/* <div className="max-w-7xl mx-auto py-44 md:py-56 min-h-full"></div> */}
       </div>
       <div className="w-screen ">
-        {" "}
         <Places />
         <BannerImg poster={poster1} my={10} />
         <Blogs />

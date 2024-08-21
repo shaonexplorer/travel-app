@@ -1,10 +1,14 @@
 import BlogCard from "./BlogCard";
 
+import image1 from "../../assets/places/tajmahal.jpg";
+import image2 from "../../assets/places/water.jpg";
+import image3 from "../../assets/places/boat.jpg";
+
 function Blogs() {
   const blogData = [
     {
       title: "Top Places To Visit In India",
-      img: "/src/assets/places/tajmahal.jpg",
+      img: image1,
       date: "August,2023",
       author: "Jhon Doe",
       delay: "300",
@@ -13,7 +17,7 @@ function Blogs() {
     },
     {
       title: "Top Places To Visit In USA",
-      img: "/src/assets/places/water.jpg",
+      img: image2,
       date: "February,2024",
       author: "Simon bel",
       delay: "400",
@@ -22,7 +26,7 @@ function Blogs() {
     },
     {
       title: "Top Places To Visit In Japan",
-      img: "/src/assets/places/boat.jpg",
+      img: image3,
       date: "January,2023",
       author: "Hakata Namuro",
       delay: "500",

@@ -6,7 +6,7 @@ function PlacesCard({ item }) {
       <div className="overflow-hidden">
         <img
           className="h-[300px] w-full object-cover hover:scale-110 transition-all duration-500"
-          src={item.img}
+          src={`${item.img}`}
         ></img>
       </div>
 

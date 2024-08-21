@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import image from "../assets/logo.png";
 
 function MobileMenu({ show, setShow }) {
   const menuItem = [
@@ -17,7 +18,7 @@ function MobileMenu({ show, setShow }) {
       <div className="">
         <ul className="mt-20 text-xl font-semibold">
           <div className="mx-auto w-32 py-10">
-            <img src="src/assets/logo.png" className="w-32"></img>
+            <img src={image} className="w-32"></img>
           </div>
           {menuItem.map((item) => (
             <li

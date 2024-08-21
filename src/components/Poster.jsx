@@ -3,6 +3,8 @@ import { FaWifi } from "react-icons/fa";
 import { MdLocalHotel } from "react-icons/md";
 import { IoFastFood } from "react-icons/io5";
 
+import image from "../assets/travelbox.png";
+
 function Poster() {
   return (
     <div className="bg-stone-100">
@@ -15,7 +17,7 @@ function Poster() {
               data-aos-duration="1000"
               data-aos-delay="500"
               className="drop-shadow-xl"
-              src="/src/assets/travelbox.png"
+              src={image}
             ></img>
           </div>
           {/* text content section */}

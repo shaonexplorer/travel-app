@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import video from "../assets/video/footer.mp4";
 
 function Footer() {
   const links = [
@@ -21,7 +22,7 @@ function Footer() {
         loop
         className="absolute top-0 right-0 w-full h-full object-cover -z-30"
       >
-        <source src="/src/assets/video/footer.mp4"></source>
+        <source src={video}></source>
       </video>
       <div className="bg-stone-100 bg-opacity-80 max-w-7xl mx-8 md:mx-auto rounded-xl grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 px-10 py-10 my-10 md:my-0">
         <div className="flex flex-col justify-center items-center md:items-start">

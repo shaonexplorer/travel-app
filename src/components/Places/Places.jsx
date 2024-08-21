@@ -1,10 +1,17 @@
 import PlacesCard from "./PlacesCard";
 
+import image1 from "../../assets/places/boat.jpg";
+import image2 from "../../assets/places/place4.jpg";
+import image3 from "../../assets/places/place5.jpg";
+import image4 from "../../assets/places/place6.jpg";
+import image5 from "../../assets/places/tajmahal.jpg";
+import image6 from "../../assets/places/water.jpg";
+
 function Places() {
   const placesData = [
     {
       title: "Boat Tour",
-      img: "src/assets/places/boat.jpg",
+      img: image1,
       location: "USA",
       price: 1200,
       category: "Cultural Relax",
@@ -13,7 +20,7 @@ function Places() {
     },
     {
       title: "Sydney",
-      img: "src/assets/places/place4.jpg",
+      img: image2,
       location: "Australia",
       price: 1500,
       category: "Cultural Relax",
@@ -22,7 +29,7 @@ function Places() {
     },
     {
       title: "Los Angeles",
-      img: "src/assets/places/place5.jpg",
+      img: image3,
       location: "USA",
       price: 1500,
       category: "Cultural Relax",
@@ -31,7 +38,7 @@ function Places() {
     },
     {
       title: "Las Vegas",
-      img: "src/assets/places/place6.jpg",
+      img: image4,
       location: "USA",
       price: 1800,
       category: "Cultural Relax",
@@ -40,7 +47,7 @@ function Places() {
     },
     {
       title: "Taj Mahal",
-      img: "src/assets/places/tajmahal.jpg",
+      img: image5,
       location: "India",
       price: 1100,
       category: "Cultural Relax",
@@ -49,7 +56,7 @@ function Places() {
     },
     {
       title: "Under Water",
-      img: "src/assets/places/water.jpg",
+      img: image6,
       location: "Maldives",
       price: 1700,
       category: "Cultural Relax",
